@@ -51,7 +51,7 @@ class SchoolPage extends StatelessWidget {
                     child: InkWell(
                       onTap: () async {
                         const url =
-                            'https://www.linkedin.com/in/prakhar-mishra-393027194/';
+                            'https://github.com/Prakhar-creator/university_notes_app';
                         if (await canLaunch(url)) launch(url);
                       },
                       child: const Center(

@@ -9,7 +9,10 @@ List<String> _urlsToLaunch = [
   "https://drive.google.com/drive/folders/1vGkxpppjDtlPM8i0wEg1TfLgnwqaWDPd?usp=sharing",
   "https://drive.google.com/drive/folders/11gf12i2NWKdnjGKgKXUQcLAUxY6zRahK?usp=sharing",
   "https://drive.google.com/drive/folders/1hcKVRv5jhrB-gFdmSWjmbD2twE1tPp_e?usp=sharing",
-  "https://drive.google.com/drive/folders/1ljw0JSI9Lt1I1dcqphL0weBUoZWGhX0d?usp=sharing"
+  "https://drive.google.com/drive/folders/1ljw0JSI9Lt1I1dcqphL0weBUoZWGhX0d?usp=sharing",
+  "null",
+  "null",
+  "null",
 ];
 final index = [1, 2, 3, 4, 5, 6, 7, 8];
 
@@ -59,7 +62,7 @@ class HomePage extends StatelessWidget {
                     child: InkWell(
                       onTap: () async {
                         const url =
-                            'https://www.linkedin.com/in/prakhar-mishra-393027194/';
+                            'https://github.com/Prakhar-creator/university_notes_app';
                         if (await canLaunch(url)) launch(url);
                       },
                       child: const Center(

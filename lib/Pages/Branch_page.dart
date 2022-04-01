@@ -50,7 +50,7 @@ class BranchPage extends StatelessWidget {
                     child: InkWell(
                       onTap: () async {
                         const url =
-                            'https://www.linkedin.com/in/prakhar-mishra-393027194/';
+                            '';
                         if (await canLaunch(url)) launch(url);
                       },
                       child: const Center(

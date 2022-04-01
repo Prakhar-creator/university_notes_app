@@ -1,0 +1,142 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.flutter_music_application"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="16"
+8-->C:\Users\Prakhar_Mishra\Desktop\flutter\Flutter Notes App\flutter_notes_application\android\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="31" />
+9-->C:\Users\Prakhar_Mishra\Desktop\flutter\Flutter Notes App\flutter_notes_application\android\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->[:google_sign_in] C:\Users\Prakhar_Mishra\Desktop\flutter\Flutter Notes App\flutter_notes_application\build\google_sign_in\intermediates\library_manifest\release\AndroidManifest.xml:7:5-67
+11-->[:google_sign_in] C:\Users\Prakhar_Mishra\Desktop\flutter\Flutter Notes App\flutter_notes_application\build\google_sign_in\intermediates\library_manifest\release\AndroidManifest.xml:7:22-64
+12
+13    <application
+14        android:name="android.app.Application"
+14-->C:\Users\Prakhar_Mishra\Desktop\flutter\Flutter Notes App\flutter_notes_application\android\app\src\main\AndroidManifest.xml:5:9-42
+15        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+15-->[androidx.core:core:1.6.0] C:\Users\Prakhar_Mishra\.gradle\caches\transforms-2\files-2.1\122df2e57d294d1a53db26bbc3b813c1\core-1.6.0\AndroidManifest.xml:24:18-86
+16        android:icon="@mipmap/ic_launcher"
+16-->C:\Users\Prakhar_Mishra\Desktop\flutter\Flutter Notes App\flutter_notes_application\android\app\src\main\AndroidManifest.xml:6:9-43
+17        android:label="Notes_application" >
+17-->C:\Users\Prakhar_Mishra\Desktop\flutter\Flutter Notes App\flutter_notes_application\android\app\src\main\AndroidManifest.xml:4:9-42
+18        <activity
+18-->C:\Users\Prakhar_Mishra\Desktop\flutter\Flutter Notes App\flutter_notes_application\android\app\src\main\AndroidManifest.xml:7:9-27:20
+19            android:name="com.example.flutter_music_application.MainActivity"
+19-->C:\Users\Prakhar_Mishra\Desktop\flutter\Flutter Notes App\flutter_notes_application\android\app\src\main\AndroidManifest.xml:8:13-41
+20            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+20-->C:\Users\Prakhar_Mishra\Desktop\flutter\Flutter Notes App\flutter_notes_application\android\app\src\main\AndroidManifest.xml:12:13-163
+21            android:exported="true"
+21-->C:\Users\Prakhar_Mishra\Desktop\flutter\Flutter Notes App\flutter_notes_application\android\app\src\main\AndroidManifest.xml:9:13-36
+22            android:hardwareAccelerated="true"
+22-->C:\Users\Prakhar_Mishra\Desktop\flutter\Flutter Notes App\flutter_notes_application\android\app\src\main\AndroidManifest.xml:13:13-47
+23            android:launchMode="singleTop"
+23-->C:\Users\Prakhar_Mishra\Desktop\flutter\Flutter Notes App\flutter_notes_application\android\app\src\main\AndroidManifest.xml:10:13-43
+24            android:theme="@style/LaunchTheme"
+24-->C:\Users\Prakhar_Mishra\Desktop\flutter\Flutter Notes App\flutter_notes_application\android\app\src\main\AndroidManifest.xml:11:13-47
+25            android:windowSoftInputMode="adjustResize" >
+25-->C:\Users\Prakhar_Mishra\Desktop\flutter\Flutter Notes App\flutter_notes_application\android\app\src\main\AndroidManifest.xml:14:13-55
+26
+27            <!--
+28                 Specifies an Android theme to apply to this Activity as soon as
+29                 the Android process has started. This theme is visible to the user
+30                 while the Flutter UI initializes. After that, this theme continues
+31                 to determine the Window background behind the Flutter UI.
+32            -->
+33            <meta-data
+33-->C:\Users\Prakhar_Mishra\Desktop\flutter\Flutter Notes App\flutter_notes_application\android\app\src\main\AndroidManifest.xml:19:13-22:17
+34                android:name="io.flutter.embedding.android.NormalTheme"
+34-->C:\Users\Prakhar_Mishra\Desktop\flutter\Flutter Notes App\flutter_notes_application\android\app\src\main\AndroidManifest.xml:20:15-70
+35                android:resource="@style/NormalTheme" />
+35-->C:\Users\Prakhar_Mishra\Desktop\flutter\Flutter Notes App\flutter_notes_application\android\app\src\main\AndroidManifest.xml:21:15-52
+36
+37            <intent-filter>
+37-->C:\Users\Prakhar_Mishra\Desktop\flutter\Flutter Notes App\flutter_notes_application\android\app\src\main\AndroidManifest.xml:23:13-26:29
+38                <action android:name="android.intent.action.MAIN" />
+38-->C:\Users\Prakhar_Mishra\Desktop\flutter\Flutter Notes App\flutter_notes_application\android\app\src\main\AndroidManifest.xml:24:17-68
+38-->C:\Users\Prakhar_Mishra\Desktop\flutter\Flutter Notes App\flutter_notes_application\android\app\src\main\AndroidManifest.xml:24:25-66
+39
+40                <category android:name="android.intent.category.LAUNCHER" />
+40-->C:\Users\Prakhar_Mishra\Desktop\flutter\Flutter Notes App\flutter_notes_application\android\app\src\main\AndroidManifest.xml:25:17-76
+40-->C:\Users\Prakhar_Mishra\Desktop\flutter\Flutter Notes App\flutter_notes_application\android\app\src\main\AndroidManifest.xml:25:27-74
+41            </intent-filter>
+42        </activity>
+43        <!--
+44             Don't delete the meta-data below.
+45             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+46        -->
+47        <meta-data
+47-->C:\Users\Prakhar_Mishra\Desktop\flutter\Flutter Notes App\flutter_notes_application\android\app\src\main\AndroidManifest.xml:30:9-32:33
+48            android:name="flutterEmbedding"
+48-->C:\Users\Prakhar_Mishra\Desktop\flutter\Flutter Notes App\flutter_notes_application\android\app\src\main\AndroidManifest.xml:31:13-44
+49            android:value="2" />
+49-->C:\Users\Prakhar_Mishra\Desktop\flutter\Flutter Notes App\flutter_notes_application\android\app\src\main\AndroidManifest.xml:32:13-30
+50
+51        <activity
+51-->[:url_launcher_android] C:\Users\Prakhar_Mishra\Desktop\flutter\Flutter Notes App\flutter_notes_application\build\url_launcher_android\intermediates\library_manifest\release\AndroidManifest.xml:8:9-11:74
+52            android:name="io.flutter.plugins.urllauncher.WebViewActivity"
+52-->[:url_launcher_android] C:\Users\Prakhar_Mishra\Desktop\flutter\Flutter Notes App\flutter_notes_application\build\url_launcher_android\intermediates\library_manifest\release\AndroidManifest.xml:9:13-74
+53            android:exported="false"
+53-->[:url_launcher_android] C:\Users\Prakhar_Mishra\Desktop\flutter\Flutter Notes App\flutter_notes_application\build\url_launcher_android\intermediates\library_manifest\release\AndroidManifest.xml:10:13-37
+54            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+54-->[:url_launcher_android] C:\Users\Prakhar_Mishra\Desktop\flutter\Flutter Notes App\flutter_notes_application\build\url_launcher_android\intermediates\library_manifest\release\AndroidManifest.xml:11:13-71
+55
+56        <uses-library
+56-->[androidx.window:window:1.0.0-beta04] C:\Users\Prakhar_Mishra\.gradle\caches\transforms-2\files-2.1\03c633e46d75bfb21f082f0417f55161\jetified-window-1.0.0-beta04\AndroidManifest.xml:25:9-27:40
+57            android:name="androidx.window.extensions"
+57-->[androidx.window:window:1.0.0-beta04] C:\Users\Prakhar_Mishra\.gradle\caches\transforms-2\files-2.1\03c633e46d75bfb21f082f0417f55161\jetified-window-1.0.0-beta04\AndroidManifest.xml:26:13-54
+58            android:required="false" />
+58-->[androidx.window:window:1.0.0-beta04] C:\Users\Prakhar_Mishra\.gradle\caches\transforms-2\files-2.1\03c633e46d75bfb21f082f0417f55161\jetified-window-1.0.0-beta04\AndroidManifest.xml:27:13-37
+59        <uses-library
+59-->[androidx.window:window:1.0.0-beta04] C:\Users\Prakhar_Mishra\.gradle\caches\transforms-2\files-2.1\03c633e46d75bfb21f082f0417f55161\jetified-window-1.0.0-beta04\AndroidManifest.xml:28:9-30:40
+60            android:name="androidx.window.sidecar"
+60-->[androidx.window:window:1.0.0-beta04] C:\Users\Prakhar_Mishra\.gradle\caches\transforms-2\files-2.1\03c633e46d75bfb21f082f0417f55161\jetified-window-1.0.0-beta04\AndroidManifest.xml:29:13-51
+61            android:required="false" />
+61-->[androidx.window:window:1.0.0-beta04] C:\Users\Prakhar_Mishra\.gradle\caches\transforms-2\files-2.1\03c633e46d75bfb21f082f0417f55161\jetified-window-1.0.0-beta04\AndroidManifest.xml:30:13-37
+62
+63        <activity
+63-->[com.google.android.gms:play-services-auth:20.0.1] C:\Users\Prakhar_Mishra\.gradle\caches\transforms-2\files-2.1\dd3805d3c16996e3816e94ab5d78e349\jetified-play-services-auth-20.0.1\AndroidManifest.xml:23:9-27:75
+64            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+64-->[com.google.android.gms:play-services-auth:20.0.1] C:\Users\Prakhar_Mishra\.gradle\caches\transforms-2\files-2.1\dd3805d3c16996e3816e94ab5d78e349\jetified-play-services-auth-20.0.1\AndroidManifest.xml:24:13-93
+65            android:excludeFromRecents="true"
+65-->[com.google.android.gms:play-services-auth:20.0.1] C:\Users\Prakhar_Mishra\.gradle\caches\transforms-2\files-2.1\dd3805d3c16996e3816e94ab5d78e349\jetified-play-services-auth-20.0.1\AndroidManifest.xml:25:13-46
+66            android:exported="false"
+66-->[com.google.android.gms:play-services-auth:20.0.1] C:\Users\Prakhar_Mishra\.gradle\caches\transforms-2\files-2.1\dd3805d3c16996e3816e94ab5d78e349\jetified-play-services-auth-20.0.1\AndroidManifest.xml:26:13-37
+67            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+67-->[com.google.android.gms:play-services-auth:20.0.1] C:\Users\Prakhar_Mishra\.gradle\caches\transforms-2\files-2.1\dd3805d3c16996e3816e94ab5d78e349\jetified-play-services-auth-20.0.1\AndroidManifest.xml:27:13-72
+68        <!--
+69            Service handling Google Sign-In user revocation. For apps that do not integrate with
+70            Google Sign-In, this service will never be started.
+71        -->
+72        <service
+72-->[com.google.android.gms:play-services-auth:20.0.1] C:\Users\Prakhar_Mishra\.gradle\caches\transforms-2\files-2.1\dd3805d3c16996e3816e94ab5d78e349\jetified-play-services-auth-20.0.1\AndroidManifest.xml:33:9-37:51
+73            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+73-->[com.google.android.gms:play-services-auth:20.0.1] C:\Users\Prakhar_Mishra\.gradle\caches\transforms-2\files-2.1\dd3805d3c16996e3816e94ab5d78e349\jetified-play-services-auth-20.0.1\AndroidManifest.xml:34:13-89
+74            android:exported="true"
+74-->[com.google.android.gms:play-services-auth:20.0.1] C:\Users\Prakhar_Mishra\.gradle\caches\transforms-2\files-2.1\dd3805d3c16996e3816e94ab5d78e349\jetified-play-services-auth-20.0.1\AndroidManifest.xml:35:13-36
+75            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION"
+75-->[com.google.android.gms:play-services-auth:20.0.1] C:\Users\Prakhar_Mishra\.gradle\caches\transforms-2\files-2.1\dd3805d3c16996e3816e94ab5d78e349\jetified-play-services-auth-20.0.1\AndroidManifest.xml:36:13-107
+76            android:visibleToInstantApps="true" />
+76-->[com.google.android.gms:play-services-auth:20.0.1] C:\Users\Prakhar_Mishra\.gradle\caches\transforms-2\files-2.1\dd3805d3c16996e3816e94ab5d78e349\jetified-play-services-auth-20.0.1\AndroidManifest.xml:37:13-48
+77
+78        <activity
+78-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\Prakhar_Mishra\.gradle\caches\transforms-2\files-2.1\642cc9e2632e586d1058ed231591ead4\jetified-play-services-base-18.0.1\AndroidManifest.xml:20:9-22:45
+79            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+79-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\Prakhar_Mishra\.gradle\caches\transforms-2\files-2.1\642cc9e2632e586d1058ed231591ead4\jetified-play-services-base-18.0.1\AndroidManifest.xml:20:19-85
+80            android:exported="false"
+80-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\Prakhar_Mishra\.gradle\caches\transforms-2\files-2.1\642cc9e2632e586d1058ed231591ead4\jetified-play-services-base-18.0.1\AndroidManifest.xml:22:19-43
+81            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+81-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\Prakhar_Mishra\.gradle\caches\transforms-2\files-2.1\642cc9e2632e586d1058ed231591ead4\jetified-play-services-base-18.0.1\AndroidManifest.xml:21:19-78
+82
+83        <meta-data
+83-->[com.google.android.gms:play-services-basement:18.0.0] C:\Users\Prakhar_Mishra\.gradle\caches\transforms-2\files-2.1\65c8b9154009d1931a3db50d7627d9e4\jetified-play-services-basement-18.0.0\AndroidManifest.xml:21:9-23:69
+84            android:name="com.google.android.gms.version"
+84-->[com.google.android.gms:play-services-basement:18.0.0] C:\Users\Prakhar_Mishra\.gradle\caches\transforms-2\files-2.1\65c8b9154009d1931a3db50d7627d9e4\jetified-play-services-basement-18.0.0\AndroidManifest.xml:22:13-58
+85            android:value="@integer/google_play_services_version" />
+85-->[com.google.android.gms:play-services-basement:18.0.0] C:\Users\Prakhar_Mishra\.gradle\caches\transforms-2\files-2.1\65c8b9154009d1931a3db50d7627d9e4\jetified-play-services-basement-18.0.0\AndroidManifest.xml:23:13-66
+86    </application>
+87
+88</manifest>

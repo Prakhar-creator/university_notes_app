@@ -1,0 +1,4 @@
+#Thu Mar 31 23:06:36 IST 2022
+base.0=C\:\\Users\\Prakhar_Mishra\\Desktop\\flutter\\Flutter Notes App\\flutter_notes_application\\build\\app\\intermediates\\dex\\debug\\mergeDexDebug\\classes.dex
+renamed.0=classes.dex
+path.0=classes.dex
